@@ -1,0 +1,50 @@
+
+
+<body>
+
+    <form action="<?php echo base_url().'index.php/admin/User/add_user'?>" method="POST" class="register_form wrap" >
+       <div class="container_add">
+        <label for="">First name</label><br>
+            <input type="text" name="first_name" placeholder="Enter name"><br><br>
+
+
+            <label for="">Last name</label><br>
+            <input type="text" name="last_name" placeholder="Enter name"><br><br>
+
+
+            <label for="">Enter Email</label><br>
+            <input type="email" name="email" placeholder="Enter email"><br><br>
+
+
+            <label for="">User name</label><br>
+            <input type="text" name="user_name" placeholder="Enter name"><br><br>
+
+
+
+            <label for="">Enter Password</label><br>
+            <input type="password" name="password" placeholder="Enter password"><br><br>
+
+
+            <label for="">Enter Mobile number</label><br>
+            <input type="text" name="mob_no" placeholder="Enter number"><br><br>
+
+            <label for="">user type</label><br>
+            <select name="user_type" class="btn_width">
+            <option>select type</option>
+                <option >admin</option>
+                <option >user</option>
+            </select><br><br>
+
+
+            <label for="">user status</label><br>
+            <select name="user_status" class="btn_width">
+                <option>select status</option>
+                <option >active</option>
+                <option >offline</option>
+            </select><br><br>
+            <input type="submit" name="submit" class="btn_width">
+       </div>
+    </form>
+  
+</body>
+

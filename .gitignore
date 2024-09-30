@@ -1,0 +1,8 @@
+# Ignore system files and directories
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+node_modules/
+vendor/
+.env

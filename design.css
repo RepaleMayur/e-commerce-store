@@ -1,0 +1,436 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.btn{
+    border-radius: 4px;
+    border: none;
+    padding: 4px;
+    background-color: darkgray;
+    text-transform: uppercase;
+
+}
+.multipal_delete_btn{
+    margin-left: 55px;
+
+}
+.qyt_btn {
+    text-decoration: none;
+    margin-left: -60px;
+    background: gray;
+    color: #fff;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+
+.btn_width{
+    width: 300px;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+
+/* search btn */
+.search_btn{
+    float: right;
+    margin-top: 30px;
+    margin-right: 30px;
+
+}
+
+
+.wrap {
+    margin-left: 400px;
+   padding-top: 85px;
+}
+
+/* login admin panal */
+.login_form{
+    text-align: center;
+    background-color: aquamarine;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 200px 500px;
+    padding: 20px;
+    box-shadow: 0px 10px 20px 0px #111;
+}
+.admin_login{
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.login {
+    width: 200px!important;
+    border: none;
+    box-shadow: 0px 1px 6px 0px;
+}
+
+
+.header{
+    width: 78%;
+    float: right;
+}
+
+.header .right_wrapper{
+    width: 100%;
+    background-color: #495052;
+    height: 70px;
+    margin-top: -16px;
+}
+
+
+
+/* user show  */
+.show_user{
+    color: #fff;
+    float: right;
+    text-decoration: none;
+    margin-right: 19px;
+    margin-top: 14px;
+   
+    
+}
+.admin_show{
+    float: right;
+    margin: 20px;
+    color: #fff;
+}
+
+
+.logout_btn{
+    float: right;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    /* box-shadow: 0px 2px 25px 0px #000; */
+}
+
+.search{
+    float: left;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: #fff;
+}
+.user_account{
+    text-decoration: none;
+    color: #000;
+}
+.container{
+    height: 65vw;
+    width: 22%;
+    float: left; 
+    background-color: gray;
+}
+
+.container .side_bar_head{
+    padding: 0px ;
+    margin: -13px 30px;
+   
+
+}
+.dashboard{
+   list-style-type: none;
+    line-height: 4;
+    position: relative;
+    text-transform: uppercase;
+    display: grid;
+}
+.dashboard a{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 30px;
+}
+.dashboard a:hover{
+    padding: 0px 30px;
+    background-color: white;
+    color: black;
+    opacity: 0.9;
+}
+
+.content_page{
+    width: 78%;
+    float: left;
+    /* margin-top: 60px;
+    margin-left: 90px;
+    display: flex; */
+    
+}
+.content{
+    width: 78%;
+    float: left;
+    margin-top: 60px;
+    margin-left: 90px;
+    display: flex;
+    
+}
+.box_1{
+    width: 400px;
+    height: 160px;
+    background: aliceblue;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 3px 0px #111;
+}
+.box_2{
+    width: 400px;
+    float: left;
+    height: 160px;
+    background: aliceblue;
+    margin-left: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 3px 0px #111;
+}
+
+h3.last_two_day {
+    text-align: center;
+    margin-bottom: -35px;
+}
+.wrapper {
+    margin: 0px 48px 0px 131px;
+}
+.table td{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* user register form  css */
+.register_form{
+   text-transform: uppercase;
+}
+input[type=text], input[type=email], 
+input[type=password], 
+input[type=number]{
+    /* background-color: aqua; */
+    line-height: 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    height: 20px;
+    padding: 5px;
+    width: 300px;
+}
+select.select_opt {
+    width: 40%;
+}
+
+
+
+
+
+
+
+/* user listing css*/
+
+
+.add_user_btn{
+    background-color: gray;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    margin: 30px 55px;
+}
+.add_btn{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+
+}
+
+
+
+
+/* table listing  */
+.table{
+    /* border-bottom: 1px solid #000; */
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 1px 0px;
+    margin-top: 30px;
+    width: 70%;
+}
+.table tr{
+    border-bottom: 1px solid #000;
+    box-shadow: 0px 1px 0px 0px;
+    line-height: 2;
+}
+
+
+
+   
+
+.delete_btn{
+    text-decoration: none;
+    background-color: red;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+
+}
+.del_btn{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.update_btn{
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+}
+
+
+/* product listing */
+.listing_table{
+    width: 100%;
+    
+}
+.product_form{
+    width: 78%;
+    float: right;
+}
+
+/* product update */
+.img_show{
+    display: block;
+    margin-top: 20px;
+}
+#remove_img {
+    display: inline-block;
+}
+
+/* order form */
+
+.order_form {
+   position: relative;
+}
+
+.search_input{
+    border-radius: 4px;
+    border: none;
+    height: 20px;
+    padding: 10px;
+}
+
+.right_div {
+    float: left;
+    width: 39%;
+    padding: 30px;
+}
+
+.product_list {
+    display: inline-table;
+    padding: 10px;
+    float: left;
+}
+
+.billing_table {
+    margin-top: 30px;
+    border: 1px solid black;
+    width: 51%;
+    box-shadow: 0px 0px 2px;
+    line-height: 2;
+}
+
+/* .scroll {
+    /* overflow-x: scroll;
+    width: 100%; 
+} */
+
+/* pagination css */
+
+.pagination_design {
+    display: inline-block;
+    margin-top: 15px;
+    font: weight 1000px;;   
+    font-size:18px;   
+    padding: 8px 16px;   
+    margin: 10px 30px;  
+}
+strong {
+    padding: 5px 10px;
+    background: black;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0px 10px;
+}
+.pagination_design a{
+    margin: 0px 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background: darkgray;
+    color: #fff;
+}
+
+table tr th a{
+    text-decoration: none;
+    color: #000;
+    /* text-transform: capitalize; */
+
+}
+
+/* thank page */
+.right {
+    width: 200px;
+    height: auto;
+}
+.thanks_page {
+    text-align: center;
+    /* padding: 30px; */
+}
+
+
+/* checkout */
+input.qty_css {
+    width: 35px;
+    background: none;
+}
+.same_as{
+    margin-bottom: 330px;
+}
+
+
+
+/* coupon apply */
+.coup{
+    margin-left: 54px;
+    width: 150px;
+}
+
+
+/* listing table */
+table th{
+    text-transform: capitalize;
+}
+
+
+
+
+/* text area */
+
+div#cke_editor {
+    width: 640px;
+    height: 350px;
+}
+input.text_title {
+    width: 450px;
+}
+
+.content_all{
+    background-color: azure;
+    
+}
